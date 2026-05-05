@@ -1,2 +1,5 @@
 title: Calebh101 Docs
-theme: minima
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
