@@ -1,5 +1,6 @@
 title: Calebh101 Docs
 remote_theme: just-the-docs/just-the-docs
+color_scheme: auto
 
 plugins:
   - jekyll-remote-theme
