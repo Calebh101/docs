@@ -1,9 +1,7 @@
 title: Calebh101 Docs
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
-
-head:
-  - "<link rel='icon' type='image/png' href='https://raw.githubusercontent.com/Calebh101/Calebh101/main/assets/icon-round.png'>"
+favicon_ico: /favicon.png
 
 plugins:
   - jekyll-remote-theme
