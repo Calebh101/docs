@@ -1,3 +1,9 @@
+---
+title: Login Emails
+parent: Index
+nav_order: 1
+---
+
 Did you receive a login email? Cool, that means my code worked.
 
 If you're curious about the different types, and what each link means, you're in the right place! I created this so the links in my emails don't look like big sketchy things you don't want to click.
