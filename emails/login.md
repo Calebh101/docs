@@ -26,7 +26,7 @@ But here's the parts of the link, if you're curious:
 - `&code=code`: Autofills the verification code field.
 - `&session=sessionid`: Autofills the session ID field.
 
-You can go to account.calebh101.net/?verifyEmail manually to fill out these fields; this extra long link just does this for you.
+You can go to [account.calebh101.net/?verifyEmail](https://account.calebh101.net/?verifyEmail) manually to fill out these fields; this extra long link just does this for you.
 Hope this clears some stuff up!
 
 ## Verify Your Login
