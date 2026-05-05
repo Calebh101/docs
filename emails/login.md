@@ -2,6 +2,9 @@ Did you receive a login email? Cool, that means my code worked.
 
 If you're curious about the different types, and what each link means, you're in the right place! I created this so the links in my emails don't look like big sketchy things you don't want to click.
 
+[Verify Your Email](#verify-your-email): Verifying your email when you create a new account.<br>
+[Verify Your Login](#verify-your-login): Verifying your device when signing in.
+
 ## Verify Your Email
 
 With this email, you'll receive a few things:
@@ -18,7 +21,7 @@ When you click the link, it doesn't immediately verify the email; it just leads 
 
 But here's the parts of the link, if you're curious:
 
-```account.calebh101.net/?verifyEmail&email=me%40gmail.com&code=hf629f&session=jf74jg92o82f```
+```https://account.calebh101.net/?verifyEmail&email=me%40gmail.com&code=hf629f&session=jf74jg92o82f```
 
 - `account.calebh101.net/`: My website.
 - `?verifyEmail`: Tells the website to go to the verify email page.
@@ -26,7 +29,7 @@ But here's the parts of the link, if you're curious:
 - `&code=code`: Autofills the verification code field.
 - `&session=sessionid`: Autofills the session ID field.
 
-You can go to [account.calebh101.net/?verifyEmail](https://account.calebh101.net/?verifyEmail) manually to fill out these fields; this extra long link just does this for you.
+You can go to [https://account.calebh101.net/?verifyEmail](https://account.calebh101.net/?verifyEmail) manually to fill out these fields; this extra long link just does this for you.
 Hope this clears some stuff up!
 
 ## Verify Your Login
