@@ -9,6 +9,7 @@ With this email, you'll receive a few things:
 - A session ID. This is so only your device, and your email, can use the code we sent you. You normally don't need to worry about this, unless you're typing details in manually.
 - A verification code. This is the actual code, and only your email will have it. This is also normally handled for you, like the session ID.
 - The IP address trying to log you in.
+- The user agent of the device trying to log you in. This basically tells you what type of device and what browser they're using.
 - A link.
 
 ### The Link
@@ -30,4 +31,5 @@ Hope this clears some stuff up!
 
 ## Verify Your Login
 
-This email just contains a 6-character 2-factor-authentication (2FA) code. It also includes the IP address of the device trying to log in.
+This email just contains a 6-character 2-factor-authentication (2FA) code. It also includes the IP address and user agent of the device trying to log in.
+The user agent basically tells you what type of device and what browser they're using.
