@@ -3,7 +3,7 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
 
 head:
-  - <link rel="icon" href="https://github.com/Calebh101/Calebh101/blob/main/assets/icon-round.png?raw=true">
+  - "<link rel='icon' type='image/png' href='https://raw.githubusercontent.com/Calebh101/Calebh101/main/assets/icon-round.png'>"
 
 plugins:
   - jekyll-remote-theme
