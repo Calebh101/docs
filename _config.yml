@@ -2,5 +2,8 @@ title: Calebh101 Docs
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
 
+head:
+  - <link rel="icon" href="https://github.com/Calebh101/Calebh101/blob/main/assets/icon-round.png?raw=true">
+
 plugins:
   - jekyll-remote-theme
