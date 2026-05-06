@@ -27,10 +27,10 @@ When you click the link, it doesn't immediately verify the email; it just leads 
 
 But here's the parts of the link, if you're curious:
 
-```https://account.calebh101.net/?verifyEmail&email=me%40gmail.com&code=hf629f&session=jf74jg92o82f```
+```https://account.calebh101.net/?p=verifyEmail&email=me%40gmail.com&code=hf629f&session=jf74jg92o82f```
 
 - `account.calebh101.net/`: My website.
-- `?verifyEmail`: Tells the website to go to the verify email page.
+- `?p=verifyEmail`: Tells the website to go to the verify email page. `p` means "page".
 - `&email=your email`: Autofills the email field.
 - `&code=code`: Autofills the verification code field.
 - `&session=sessionid`: Autofills the session ID field.
