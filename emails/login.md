@@ -1,6 +1,6 @@
 ---
 title: Login Emails
-parent: Index
+parent: Emails
 nav_order: 1
 ---
 
@@ -18,7 +18,7 @@ With this email, you'll receive a few things:
 - A session ID. This is so only your device, and your email, can use the code we sent you. You normally don't need to worry about this, unless you're typing details in manually.
 - A verification code. This is the actual code, and only your email will have it. This is also normally handled for you, like the session ID.
 - The IP address trying to log you in.
-- The user agent of the device trying to log you in. This basically tells you what type of device and what browser they're using.
+- The user agent of the device trying to log you in. See [the glossary](../glossary.md#user-agent) for more info.
 - A link.
 
 ### The Link
@@ -35,10 +35,9 @@ But here's the parts of the link, if you're curious:
 - `&code=code`: Autofills the verification code field.
 - `&session=sessionid`: Autofills the session ID field.
 
-You can go to [https://account.calebh101.net/?verifyEmail](https://account.calebh101.net/?verifyEmail) manually to fill out these fields; this extra long link just does this for you.
+You can go to [https://account.calebh101.net/?p=verifyEmail](https://account.calebh101.net/?p=verifyEmail) manually to fill out these fields; this extra long link just does this for you.
 Hope this clears some stuff up!
 
 ## Verify Your Login
 
-This email just contains a 6-character 2-factor-authentication (2FA) code. It also includes the IP address and user agent of the device trying to log in.
-The user agent basically tells you what type of device and what browser they're using.
+This email just contains a 6-character 2-factor-authentication (2FA) code. It also includes the IP address and [user agent](../glossary.md#user-agent) of the device trying to log in.
