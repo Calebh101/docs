@@ -14,6 +14,7 @@ This is sent to you when you try to change your email at [account.calebh101.net]
 - Session ID: The session ID of the user doing this. **Make sure you check this against what you see under "Current session ID" on the device doing this change.**
 - IP address: The IP address of the user requesting this.
 - User agent: The user agent of the device requesting this. See [the glossary](../glossary.md#user-agent) for more info.
+- Location: The approximate location of the device requesting this. This is not accurate and is not always correct.
 
 ### The Link
 
@@ -38,14 +39,6 @@ This is sent to you when your email was successfully changed. This is sent to bo
 - New email
 - IP address: The IP address of the user requesting this.
 - User agent: The user agent of the device requesting this. See [the glossary](../glossary.md#user-agent) for more info.
-
-This email is sent as a notice, so there's no action to do.
-
-# Password Changed
-
-This is sent to you when your password was successfully changed. This is sent to both your old email and your new email, both at the same time. You'll be sent the following details:
-
-- IP address: The IP address of the user requesting this.
-- User agent: The user agent of the device requesting this. See [the glossary](../glossary.md#user-agent) for more info.
+- Location: The approximate location of the device requesting this. This is not accurate and is not always correct.
 
 This email is sent as a notice, so there's no action to do.

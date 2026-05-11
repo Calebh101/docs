@@ -19,7 +19,9 @@ With this email, you'll receive a few things:
 - A verification code. This is the actual code, and only your email will have it. This is also normally handled for you, like the session ID.
 - The IP address trying to log you in.
 - The user agent of the device trying to log you in. See [the glossary](../glossary.md#user-agent) for more info.
-- A link.
+- Location: The approximate location of the device requesting this. This is not accurate and is not always correct.
+
+And also a [link](#the-link).
 
 ### The Link
 
@@ -40,4 +42,8 @@ Hope this clears some stuff up!
 
 ## Verify Your Login
 
-This email just contains a 6-character 2-factor-authentication (2FA) code. It also includes the IP address and [user agent](../glossary.md#user-agent) of the device trying to log in.
+This email just contains a 6-character 2-factor-authentication (2FA) code. It also includes the following details:
+
+- The IP address of the device requesting this.
+- The [user agent](../glossary.md#user-agent) of the device requesting this.
+- Location: The approximate location of the device requesting this. This is not accurate and is not always correct.

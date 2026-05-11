@@ -1,7 +1,7 @@
 ---
 title: Account Deletion Emails
 parent: Emails
-nav_order: 3
+nav_order: 4
 ---
 
 # Account Deletion Request
@@ -13,6 +13,7 @@ This is sent to you when you try to delete your account at [account.calebh101.ne
 - Session ID: The session ID of the user doing this. **Make sure you check this against what you see under "Current session ID" on the device doing this change.**
 - IP address: The IP address of the user requesting this.
 - User agent: The user agent of the device requesting this. See [the glossary](../glossary.md#user-agent) for more info.
+- Location: The approximate location of the device requesting this. This is not accurate and is not always correct.
 
 ### The Link
 
@@ -37,5 +38,6 @@ This is sent to you when your account was successfully deleted. You'll be sent t
 
 - IP address: The IP address of the user requesting this.
 - User agent: The user agent of the device requesting this. See [the glossary](../glossary.md#user-agent) for more info.
+- Location: The approximate location of the device requesting this. This is not accurate and is not always correct.
 
 This email is sent as a notice, so there's no action to do.
